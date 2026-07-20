@@ -8,7 +8,7 @@ const Projects = () => {
       image: null,
       tags: ['React', 'Node.js', 'MongoDB', 'Stripe'],
       liveUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/osujuh/ecommerce-platform'
     },
     {
       title: 'Task Management App',
@@ -16,7 +16,7 @@ const Projects = () => {
       image: null,
       tags: ['Vue.js', 'Firebase', 'Tailwind CSS'],
       liveUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/osujuh/task-management-app'
     },
     {
       title: 'AI Content Generator',
@@ -24,7 +24,7 @@ const Projects = () => {
       image: null,
       tags: ['Next.js', 'OpenAI', 'Python', 'PostgreSQL'],
       liveUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/osujuh/ai-content-generator'
     },
     {
       title: 'Fitness Tracker',
@@ -32,7 +32,7 @@ const Projects = () => {
       image: null,
       tags: ['React', 'TypeScript', 'Chart.js', 'Node.js'],
       liveUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/osujuh/fitcheck'
     },
     {
       title: 'FitCheck',
@@ -40,7 +40,7 @@ const Projects = () => {
       image: null,
       tags: ['React Native', 'Expo', 'TypeScript', 'AsyncStorage'],
       liveUrl: '#',
-      githubUrl: '#'
+      githubUrl: 'https://github.com/osujuh/fitcheck'
     }
   ]
 
@@ -96,7 +96,7 @@ const Projects = () => {
         </div>
 
         <div className="projects__cta">
-          <a href="https://github.com" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+          <a href="https://github.com/osujuh" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
             View All Projects
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M5 12h14M12 5l7 7-7 7"/>
