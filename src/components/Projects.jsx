@@ -33,6 +33,14 @@ const Projects = () => {
       tags: ['React', 'TypeScript', 'Chart.js', 'Node.js'],
       liveUrl: '#',
       githubUrl: '#'
+    },
+    {
+      title: 'FitCheck',
+      description: 'A React Native and Expo fitness tracker with profile setup, weight logging, weekly goals, progress tracking, and local data storage.',
+      image: null,
+      tags: ['React Native', 'Expo', 'TypeScript', 'AsyncStorage'],
+      liveUrl: '#',
+      githubUrl: '#'
     }
   ]
 
