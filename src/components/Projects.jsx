@@ -3,6 +3,14 @@ import './Projects.css'
 const Projects = () => {
   const projects = [
     {
+      title: 'Attendance Monitor',
+      description: 'An institutional student attendance tracking system with a register-style interface for logging entry/exit times, bulk student import, daily absence reports, and department breakdowns. Uses localStorage for persistent data.',
+      image: null,
+      tags: ['HTML', 'CSS', 'JavaScript', 'LocalStorage'],
+      liveUrl: '#',
+      githubUrl: 'https://github.com/osujuh/attendance-monitor'
+    },
+    {
       title: 'E-Commerce Platform',
       description: 'A full-stack e-commerce solution with real-time inventory, payment processing, and admin dashboard.',
       image: null,
@@ -96,7 +104,7 @@ const Projects = () => {
         </div>
 
         <div className="projects__cta">
-          <a href="https://github.com/osujuh" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
+          <a href="https://github.com/osujuh?tab=repositories" target="_blank" rel="noopener noreferrer" className="btn btn-outline">
             View All Projects
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
               <path d="M5 12h14M12 5l7 7-7 7"/>
